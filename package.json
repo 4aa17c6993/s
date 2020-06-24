@@ -1,0 +1,35 @@
+{  "name"                       : "s"
+,  "version"                    : "0.1"
+,  "description"                : "SHORT AND FAST server 2020-06"
+,  "main"                       : "server.js"
+,  "engine"                     : { "node" : "*"
+                                  , "npm"  : "*"
+                                  }
+,  "repository"                 : { "type": "git"
+                                  , "url" : "https://github.com/4aa17c6993/s.git"
+                                  }
+,  "license"                    : "MIT"
+,  "dependencies"               : {}
+,  "bundleDependencies"         : []
+,  "scripts"                    : { "start"         : "node server.js"}
+,  "config"                     : { "tabs"          : []
+                                  , "zip"           : "deflate"
+                                  , "flatdata"      : "flat"
+                                  , "flatintabs"    : []
+                                  , "flatouttabs"   : []
+                                  , "cert"          : ""
+                                  , "first"         : "default"
+                                  , "webport"       : 8080
+                                  , "is_log"        : true
+                                  , "is_debug"      : true
+								                  , "is_incremental": true
+                                  , "is_data"       : true
+                                  , "is_app"        : false
+                                  , "is_backup"     : false
+                                  , "backup_time"   : 60000
+                                  , "build"         : "./"
+                                  , "data"          : "./data/"
+                                  , "app"           : "./app/"
+                                  , "login"         : "s MIT 0.1 "
+                                  }
+}
